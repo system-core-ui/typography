@@ -1,7 +1,7 @@
 import { useTheme } from '@emotion/react';
 import type { Meta, StoryObj } from '@storybook/react-vite';
 import { Typography, type TypographyVariant } from '../../index';
-import type { ThemeSchema } from '@thanhdq/theme';
+import type { ThemeSchema } from '@thanh-libs/theme';
 import {
   StoryContainer,
   StorySectionTitle,

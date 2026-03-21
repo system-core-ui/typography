@@ -3,7 +3,7 @@ import type { ElementType } from 'react';
 
 import { useTheme } from '@emotion/react';
 
-import type { ThemeSchema } from '@thanhdq/theme';
+import type { ThemeSchema } from '@thanh-libs/theme';
 
 import type { TypographyProps } from './models';
 

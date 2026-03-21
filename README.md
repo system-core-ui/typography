@@ -1,17 +1,17 @@
-# @thanhdq/typography
+# @thanh-libs/typography
 
 Typography component for System Core UI with variant-based styling.
 
 ## Installation
 
 ```bash
-yarn add @thanhdq/typography
+yarn add @thanh-libs/typography
 ```
 
 ## Usage
 
 ```tsx
-import { Typography } from '@thanhdq/typography';
+import { Typography } from '@thanh-libs/typography';
 
 <Typography variant="h1">Heading 1</Typography>
 <Typography variant="body" color="primary">Body text</Typography>
@@ -24,4 +24,4 @@ import { Typography } from '@thanhdq/typography';
 
 ## Running unit tests
 
-Run `nx test @thanhdq/typography` to execute the unit tests via [Vitest](https://vitest.dev/).
+Run `nx test @thanh-libs/typography` to execute the unit tests via [Vitest](https://vitest.dev/).

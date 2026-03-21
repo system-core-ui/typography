@@ -1,4 +1,4 @@
-import type { ThemeSchema } from '@thanhdq/theme';
+import type { ThemeSchema } from '@thanh-libs/theme';
 import { PALETTE_KEYS } from '../constants';
 
 type PaletteKey = 'primary' | 'error' | 'success' | 'warning' | 'info';

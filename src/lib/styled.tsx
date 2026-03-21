@@ -1,8 +1,8 @@
 import { CSSObject, useTheme } from '@emotion/react';
 import styled from '@emotion/styled';
 
-import type { ThemeSchema } from '@thanhdq/theme';
-import { pxToRem } from '@thanhdq/utils';
+import type { ThemeSchema } from '@thanh-libs/theme';
+import { pxToRem } from '@thanh-libs/utils';
 
 import type { TypographyVariant } from './models';
 
