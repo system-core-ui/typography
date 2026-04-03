@@ -1,4 +1,5 @@
 import styled from '@emotion/styled';
+import { pxToRem } from '@thanh-libs/utils';
 
 export const StoryContainer = styled.div(({ theme }) => ({
   padding: theme.spacing?.extraLarge ?? '2rem',
@@ -22,7 +23,7 @@ export const StoryVariantCard = styled.div(({ theme }) => ({
   padding: theme.spacing?.large ?? '1rem',
   borderRadius: theme.shape?.borderRadiusMedium ?? 8,
   background: theme.palette?.background?.secondary ?? '#f5f5f5',
-  borderLeft: `3px solid ${theme.palette?.primary?.main ?? '#1976d2'}`,
+  borderLeft: `${pxToRem(3)} solid ${theme.palette?.primary?.main ?? '#1976d2'}`,
 }));
 
 export const StoryMeta = styled.div(({ theme }) => ({
@@ -35,7 +36,7 @@ export const StoryMeta = styled.div(({ theme }) => ({
 
 export const StoryNoWrapBox = styled.div(({ theme }) => ({
   width: 300,
-  border: `1px dashed ${theme.palette?.divider ?? '#ddd'}`,
+  border: `${pxToRem(1)} dashed ${theme.palette?.divider ?? '#ddd'}`,
   padding: theme.spacing?.small ?? 8,
   borderRadius: theme.shape?.borderRadiusTiny ?? 4,
 }));
